@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Trong nước"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="Tử vong"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/deathInternalTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="Đang chữa trị"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/treatingInternalTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="Số ca nhiễm"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/casesInternalTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="match_parent"
+            android:shadowColor="@android:color/holo_blue_dark"
+            android:text="Đã khỏi"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/recoveredInternalTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thế giới"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="Tử vong"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/deathWorldTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="Đang chữa trị"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/treatingWorldTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:text="Số ca nhiễm"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/casesWorldTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/holo_blue_dark"
+            android:text="Đã khỏi"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/recoveredWorldTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
